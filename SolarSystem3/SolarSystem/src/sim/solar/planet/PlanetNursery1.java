@@ -3,13 +3,7 @@ package sim.solar.planet;
 import java.util.ArrayList; 
 
 public class PlanetNursery1 implements NurseryInterface {
-   private   int angle;
-   private   int orbit;
-   private   int increment;
-   private   int planetSize;
-   private   int red ;
-   private   int green;
-   private   int blue; 
+  
      
     public String GetAuthor () {
      return "name1"; 
@@ -20,6 +14,14 @@ public class PlanetNursery1 implements NurseryInterface {
     }     
      
     public ArrayList<PlanetInterface> Produce () {
+       int angle;
+      int orbit;
+     int increment;
+   int green;
+     int blue; 
+int planetSize;
+ int red;
+
         ArrayList<PlanetInterface> planetList = new ArrayList<>();
         angle = 0; 
         int numPlanets = 90;  // sets number of planets created and range of i 
