@@ -32,7 +32,7 @@ public class Exhibit
          InvocationTargetException
    {
          className = "sim.solar.planet."+className; 
-         System.out.println(className) ; 
+       //  System.out.println(className) ; 
          Class<?> cls = Class.forName(className);
          Class<?>[] parameters = {};
          Constructor<?> constructor = cls.getConstructor(parameters);
