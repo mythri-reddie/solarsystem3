@@ -1,5 +1,6 @@
 package sim.solar; 
-import sim.solar.planet.*; 
+import sim.solar.planet.Exhibit;
+import sim.solar.planet.NurseryInterface;
 
 import java.awt.Color;
 import java.awt.Graphics;
