@@ -7,6 +7,7 @@ import java.awt.Dimension;
 import javax.swing.JPanel;
 
 class Simulation extends JPanel implements Runnable {
+   private static final long serialVersionUID = 1L;
    private static final Color colorBlack = new Color(0,0,0);
    private static final Color colorGreen = new Color(30,120,30);
    private static final int screenSize = 600;         // screen size both x and y
