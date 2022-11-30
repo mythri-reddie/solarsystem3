@@ -11,12 +11,12 @@ public class Planet implements PlanetInterface {
   private int x;
   private int y; 
   private int angle; 
-  private int angleIncrement;
-  private double orbit ; 
-  private int size; 
-  private Color color; 
+  private final int angleIncrement;
+  private final double orbit ; 
+  private final int size; 
+  private final Color color; 
   private double frequencyDrift = 1.0; // initial value 1.0 is no drift
-  private double driftIncrement = 0.0; // 0.0 drift increment is no drift, 0.0002 is a good drift
+  private final double driftIncrement = 0.0; // 0.0 drift increment is no drift, 0.0002 is a good drift
 
   private int mult=1;  
    
